@@ -7,7 +7,7 @@
 ## Instructions
 
 -------------
-run db
+-- run db
 -------------
 
 USE sakila;
@@ -22,7 +22,7 @@ last_name
 from actor;
 
 -----------------------------------------------------------------------------------------------------------------------------
--- * 1b. Display the first and last name of each actor in a single column in upper case letters. Name the column `Actor Name`.
+* 1b. Display the first and last name of each actor in a single column in upper case letters. Name the column `Actor Name`.
 -----------------------------------------------------------------------------------------------------------------------------
 
 select 
@@ -70,7 +70,7 @@ from country
 where country in ("Afghanistan", "Bangladesh", "China");
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
--- * 3a. You want to keep a description of each actor. You don't think you will be performing queries on a description, so create a column in the table `actor` named `description` and use the data type `BLOB` (Make sure to research the type `BLOB`, as the difference between it and `VARCHAR` are significant).
+* 3a. You want to keep a description of each actor. You don't think you will be performing queries on a description, so create a column in the table `actor` named `description` and use the data type `BLOB` (Make sure to research the type `BLOB`, as the difference between it and `VARCHAR` are significant).
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ALTER TABLE actor
